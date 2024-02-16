@@ -79,7 +79,7 @@ nav .container-fluid .btn:hover {
 .card .card-container img {
   justify-content: left;
   align-self: center;
-  width: 500px;
+  width: 75%;
 }
 .card .card-container img:hover {
   border-radius: 30%;
@@ -108,7 +108,7 @@ footer .box .box-container {
 footer .box .box-container img {
   justify-content: left;
   align-self: center;
-  width: 500px;
+  width: 400px;
 }
 footer .box .box-container img:hover {
   border-radius: 30%;
@@ -148,6 +148,31 @@ footer .footer {
   }
   .card-container {
     flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .card {
+    display: flex;
+  }
+  .card a {
+    margin: 0;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .box {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  }
+  .box .box-container {
+    flex-direction: column;
+  }
+  .box .box-container p {
+    text-align: center;
+  }
+  .box .box-container .footer-container {
+    width: 20%;
   }
 }
 

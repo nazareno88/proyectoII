@@ -1,0 +1,17 @@
+@keyframes efecto {
+   
+    0% {
+        background-color: white;
+        border-radius: 20%;
+    }
+
+    50% {
+        background-color:rgba(0, 139, 69, 0.993) ;
+        border-radius: 50%;
+    }
+
+    100% {
+        background-color:white ;
+        border-radius: 20%;
+    }
+}
