@@ -1,13 +1,20 @@
 /*elementos del nav (luego pasarlos)*/
 nav {
-  background: linear-gradient(to right, white, rgb(65, 185, 65));
+  background: linear-gradient(to right, white, rgba(0, 139, 69, 0.993));
 }
 nav .container-fluid img {
   width: 30px;
   height: 30px;
 }
+nav .container-fluid .btn {
+  background-color: white;
+}
+nav .container-fluid .btn:hover {
+  background-color: black;
+  color: white;
+}
 
-.flexible, .content-home, .main-container {
+.flexible, footer .box, .card, .main-container {
   display: grid;
   justify-content: center;
   width: 100%;
@@ -33,7 +40,7 @@ nav .container-fluid img {
     border-radius: 20%;
   }
   50% {
-    background-color: rgba(49, 204, 49, 0.802);
+    background-color: rgba(0, 139, 69, 0.993);
     border-radius: 50%;
   }
   100% {
@@ -41,27 +48,105 @@ nav .container-fluid img {
     border-radius: 20%;
   }
 }
-.content-home {
-  background-color: rgb(46, 212, 46);
+.card {
+  background-color: rgba(0, 139, 69, 0.993);
   text-align: center;
 }
-.content-home img {
-  width: 700px;
+.card h2 {
+  color: white;
 }
-.content-home a {
+.card a {
+  text-align: center;
   font-size: 34px;
   text-decoration: none;
   color: white;
   border: 2px solid black;
-  margin: 2px 300px;
+  margin: 20px 500px;
   background-color: black;
 }
-.content-home a:hover {
-  box-shadow: 10px 10px 10px green;
+.card a:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.993);
   border-radius: 50px;
   background-color: white;
   color: black;
   transition: 2s;
+}
+.card .card-container {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  border: 2px solid black;
+}
+.card .card-container img {
+  justify-content: left;
+  align-self: center;
+  width: 500px;
+}
+.card .card-container img:hover {
+  border-radius: 30%;
+  transition: 2s;
+}
+.card .card-container p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+
+footer .box {
+  justify-content: right;
+  color: white;
+  background-color: rgba(0, 139, 69, 0.993);
+}
+footer .box h3 {
+  text-align: center;
+}
+footer .box .box-container {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  border: 2px solid black;
+}
+footer .box .box-container img {
+  justify-content: left;
+  align-self: center;
+  width: 500px;
+}
+footer .box .box-container img:hover {
+  border-radius: 30%;
+  transition: 2s;
+}
+footer .box .box-container p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+footer .footer {
+  background-color: rgba(0, 139, 69, 0.993);
+  margin: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  width: 25%;
+  padding: 0 15px;
+  color: white;
+}
+.footer-link:hover {
+  transform: translateY(-3%);
+}
+.footer-link h4 {
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card-container img {
+    width: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
