@@ -57,11 +57,10 @@ nav .container-fluid .btn:hover {
 }
 .card a {
   text-align: center;
-  font-size: 34px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
-  border: 2px solid black;
-  margin: 20px 500px;
+  margin: 0 500px;
   background-color: black;
 }
 .card a:hover {
@@ -143,9 +142,12 @@ footer .footer {
   border-bottom: 2px solid black;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .card-container img {
-    width: 10px;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    display: flex;
+  }
+  .card-container {
+    flex-direction: column;
   }
 }
 
