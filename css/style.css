@@ -33,19 +33,27 @@ nav .container-fluid .btn:hover {
   color: white;
 }
 
-nav {
-  background: linear-gradient(to right, white, rgba(0, 139, 69, 0.993));
+.footer {
+  background-color: rgba(0, 139, 69, 0.993);
+  margin: 20px 0;
 }
-nav .container-fluid img {
-  width: 30px;
-  height: 30px;
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
 }
-nav .container-fluid .btn {
-  background-color: white;
-}
-nav .container-fluid .btn:hover {
-  background-color: black;
+
+.footer-link {
+  width: 25%;
+  padding: 0 15px;
   color: white;
+}
+.footer-link:hover {
+  transform: translateY(-3%);
+}
+.footer-link h4 {
+  color: white;
+  border-bottom: 2px solid black;
 }
 
 .flexible, footer .box, .card, .main-container {
@@ -68,6 +76,20 @@ nav .container-fluid .btn:hover {
   animation-duration: 5s;
 }
 
+@keyframes efecto {
+  0% {
+    background-color: white;
+    border-radius: 20%;
+  }
+  50% {
+    background-color: rgba(0, 139, 69, 0.993);
+    border-radius: 50%;
+  }
+  100% {
+    background-color: white;
+    border-radius: 20%;
+  }
+}
 .card {
   background-color: rgba(0, 139, 69, 0.993);
   text-align: center;
@@ -139,40 +161,65 @@ footer .box .box-container p {
   font-size: 20px;
   text-align: left;
 }
+footer .footer {
+  background-color: rgba(0, 139, 69, 0.993);
+  margin: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  width: 25%;
+  padding: 0 15px;
+  color: white;
+}
+.footer-link:hover {
+  transform: translateY(-3%);
+}
+.footer-link h4 {
+  color: white;
+  border-bottom: 2px solid black;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
-  footer .card {
+  .card {
     display: flex;
   }
-  footer .card-container {
+  .card a {
+    margin: 0;
+  }
+  .card-container {
     flex-direction: column;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  footer .card {
+  .card {
     display: flex;
   }
-  footer .card a {
+  .card a {
     margin: 0;
   }
-  footer .card-container {
+  .card-container {
     flex-direction: column;
   }
-  footer .box {
+  .box {
     display: flex;
     width: 80%;
     justify-content: center;
   }
-  footer .box .box-container {
+  .box .box-container {
     flex-direction: column;
   }
-  footer .box .box-container p {
+  .box .box-container p {
     text-align: center;
   }
-  footer .box .box-container .footer-container {
+  .box .box-container .footer-container {
     width: 20%;
   }
 }
-
 .zapatillas-box {
   background-size: cover;
   background-position: center center;
@@ -205,11 +252,42 @@ footer .box .box-container p {
   color: rgb(58, 2, 84);
 }
 
-.box-productos h2 {
+.main-box h2 {
   background: linear-gradient(to left, white, rgb(72, 1, 72));
   margin: 20px 0;
   padding: 10px;
   color: white;
+}
+
+.box-productos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.card-prod {
+  display: grid;
+  border: 2px solid black;
+}
+.card-prod:hover {
+  transform: translateY(-3%);
+}
+.card-prod img {
+  width: 300px;
+  object-fit: cover;
+}
+.card-prod button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(72, 1, 72);
+}
+.card-prod button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 4px 4px 5px 8px;
+  transition: 2s;
 }
 
 /*# sourceMappingURL=style.css.map */
