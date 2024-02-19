@@ -427,4 +427,80 @@ footer .footer {
   background: linear-gradient(to right, rgb(13, 93, 55), rgb(254, 17, 0));
 }
 
+.ubicacion-container {
+  background-image: url(../assets/images/portada-recoleta.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ubicacion-container .box-ubi {
+  margin: 10px 0;
+  gap: 10px;
+}
+.ubicacion-container .box-ubi p {
+  text-align: center;
+  color: white;
+  font-size: 44px;
+  padding: 40px 0;
+}
+.ubicacion-container .box-ubi h2 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  padding: 40px 0;
+}
+
+.contacto-container h2 {
+  text-align: center;
+  font-family: merriweather;
+  font-size: 50px;
+  background: linear-gradient(to right, white, rgba(0, 139, 69, 0.993));
+}
+.contacto-container .box-container-primary {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.contacto-container .box-container-primary iframe {
+  width: 100%;
+}
+
+.form-register {
+  background-color: rgb(2, 118, 62);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.form-register h4 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.form-register p {
+  color: white;
+}
+.form-register input {
+  border: 2px solid black;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+}
+.form-register .botons {
+  background-color: black;
+  color: white;
+  margin: 5px 0;
+}
+.form-register .botons:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 5px 2px 5px 2px;
+  transition: 1s;
+  margin: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
