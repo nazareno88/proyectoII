@@ -23,3 +23,12 @@
         border-bottom: 2px solid black;
     }
   }
+
+  @media (min-width:320px) and (max-width:767px){
+    .footer-container{
+      display: flex;
+      flex-flow: row;
+      gap: 50px;
+
+ }
+}

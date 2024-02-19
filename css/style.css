@@ -56,6 +56,13 @@ nav .container-fluid .btn:hover {
   border-bottom: 2px solid black;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-container {
+    display: flex;
+    flex-flow: row;
+    gap: 50px;
+  }
+}
 .flexible, footer .box, .card, .main-container {
   display: grid;
   justify-content: center;
@@ -150,7 +157,7 @@ footer .box .box-container {
 footer .box .box-container img {
   justify-content: left;
   align-self: center;
-  width: 400px;
+  width: 70%;
 }
 footer .box .box-container img:hover {
   border-radius: 30%;
@@ -211,7 +218,10 @@ footer .footer {
     justify-content: center;
   }
   .box .box-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .box .box-container p {
     text-align: center;

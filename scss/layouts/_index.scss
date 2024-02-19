@@ -114,7 +114,7 @@ footer{
         img{
             justify-content: left;
             align-self: center;
-            width: 400px;
+            width: 70%;
             &:hover{
                 border-radius: 30%;
                 transition: 2s;
@@ -190,8 +190,10 @@ footer{
       justify-content: center;
 
      .box-container{
+        display: flex;
         flex-direction: column;
-        
+        justify-content: center;
+        align-items: center;
         p{
             text-align: center;
         }
