@@ -16,9 +16,9 @@
     }
 }
 
-@mixin text($align,$color,$size){
+ @mixin text($align,$color,$size){
   text-align: $align;
-  color: $color;
+ color: $color;
   font-size: $size;
 }
   

@@ -361,4 +361,70 @@ footer .footer {
   transition: 2s;
 }
 
+.accesorios-box {
+  background-image: url(../assets/images/acces.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+  text-align: center;
+}
+.accesorios-box h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  padding: 60px 0;
+}
+.accesorios-box p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 37px;
+  padding: 50px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.accesorios-box button {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  background: linear-gradient(to right, rgb(13, 93, 55), rgb(254, 17, 0));
+  color: white;
+  padding: 20px;
+}
+
+.accesorios {
+  text-align: center;
+  background: linear-gradient(to right, rgb(13, 93, 55), rgb(254, 17, 0));
+  padding: 4px 0;
+  color: white;
+  margin: 20px 0;
+}
+
+.accesorios-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 10px;
+}
+
+.card-prod {
+  display: grid;
+  border: 2px solid black;
+}
+.card-prod:hover {
+  transform: translateY(-3%);
+}
+.card-prod img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.card-prod .btn-secondary {
+  padding: 10px 0;
+  color: white;
+  background: linear-gradient(to right, rgb(13, 93, 55), rgb(254, 17, 0));
+}
+
 /*# sourceMappingURL=style.css.map */
