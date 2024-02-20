@@ -66,45 +66,6 @@ nav .container-fluid .btn:hover {
     align-items: center;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
-  .card {
-    display: flex;
-  }
-  .card a {
-    margin: 0g;
-  }
-  .card-container {
-    flex-direction: column;
-  }
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  .card {
-    display: flex;
-  }
-  .card a {
-    margin: 0;
-  }
-  .card-container {
-    flex-direction: column;
-  }
-  .box {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-  }
-  .box .box-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .box .box-container p {
-    text-align: center;
-  }
-  .box .box-container .footer-container {
-    width: 20%;
-  }
-}
 .flexible, footer .box, .card, .main-container {
   display: grid;
   justify-content: center;
@@ -233,6 +194,45 @@ footer .footer {
   border-bottom: 2px solid black;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    display: flex;
+  }
+  .card a {
+    margin: 0;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .card {
+    display: flex;
+  }
+  .card a {
+    margin: 0;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .box {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  }
+  .box .box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box .box-container p {
+    text-align: center;
+  }
+  .box .box-container .footer-container {
+    width: 20%;
+  }
+}
 .zapatillas-box {
   background-size: cover;
   background-position: center center;
