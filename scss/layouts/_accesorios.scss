@@ -6,7 +6,7 @@
     margin: 20px 0;
     text-align: center;
     h1{
-        @include text (center,rgb(0, 0, 0),100px);
+        @include text (center,rgb(0, 0, 0),80px);
         padding: 60px 0;
     }
     p{@include text (center,rgb(0, 0, 0),37px);

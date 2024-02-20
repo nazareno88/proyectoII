@@ -61,8 +61,8 @@ nav .container-fluid .btn:hover {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    width: 90%;
-    justify-content: space-evenly;
+    max-width: 75%;
+    justify-content: space-between;
     align-items: center;
   }
 }
@@ -241,15 +241,15 @@ footer .footer {
 .zapatillas-box p {
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin: 10px;
-  padding: 90px;
+  margin: 10px 0;
+  padding: 90px 0;
 }
 .zapatillas-box h1 {
   text-align: center;
   color: white;
-  font-size: 100px;
+  font-size: 80px;
   padding-bottom: 40px;
 }
 .zapatillas-box, .zapatillas-box button {
@@ -311,7 +311,7 @@ footer .footer {
 .indumentaria-box p {
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 10px;
   padding: 90px;
@@ -319,7 +319,7 @@ footer .footer {
 .indumentaria-box h1 {
   text-align: center;
   color: white;
-  font-size: 100px;
+  font-size: 80px;
   padding-bottom: 40px;
 }
 .indumentaria-box, .indumentaria-box button {
@@ -374,12 +374,6 @@ footer .footer {
   transition: 2s;
 }
 
-@media (min-width: 320px) and (max-width: 766px) {
-  .box-container p {
-    width: 50%;
-    font-size: 24px;
-  }
-}
 .accesorios-box {
   background-image: url(../assets/images/acces.jpg);
   background-position: center center;
@@ -391,7 +385,7 @@ footer .footer {
 .accesorios-box h1 {
   text-align: center;
   color: rgb(0, 0, 0);
-  font-size: 100px;
+  font-size: 80px;
   padding: 60px 0;
 }
 .accesorios-box p {

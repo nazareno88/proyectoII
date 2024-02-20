@@ -4,14 +4,14 @@
     background-image: url(../assets/images/jordan-7.jpg);
 
     p{
-        @include text (center, white,40px);
+        @include text (center, white,30px);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 10px;
-        padding: 90px;
+        margin: 10px 0;
+        padding: 90px 0;
     }
 
     h1{
-        @include text(center, white,100px);
+        @include text(center, white,80px);
         padding-bottom: 40px;
     }
     &,button{
@@ -70,4 +70,6 @@
     }
 
     }
+    
+    
 

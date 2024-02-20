@@ -4,14 +4,14 @@
     background-image: url(../assets/images/indumentaria.jpg);
 
     p{
-        @include text (center, white,40px);
+        @include text (center, white,30px);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin: 10px;
         padding: 90px;
     }
 
     h1{
-        @include text(center, white,100px);
+        @include text(center, white,80px);
         padding-bottom: 40px;
     }
     &,button{
@@ -71,11 +71,3 @@
 
     }
 
-    @media (min-width:320px) and (max-width:766px){
-        .box-container{
-            p{
-              width: 50%;
-              font-size: 24px;
-            }
-        }
-    }
