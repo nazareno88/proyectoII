@@ -1,3 +1,4 @@
+//header indumentaria//
 .indumentaria-box{
     background-size: cover;
     background-position: center center;
@@ -22,10 +23,12 @@
         &:hover{
             background-color: rgb(251, 251, 251);
             color:rgb(252, 105, 0);
+            transition: 2s;
         }
     }
 }
 
+//main//
 .indumentaria-container{
     h2{
         background:linear-gradient(to left, white,rgb(252, 105, 0) );

@@ -1,3 +1,4 @@
+//header//
 .zapatillas-box{
     background-size: cover;
     background-position: center center;
@@ -22,10 +23,12 @@
         &:hover{
             background-color: white;
             color: rgb(58, 2, 84);
+            transition: 2s;
         }
     }
 }
 
+//main//
 .main-box{
     h2{
         background:linear-gradient(to left, white, rgb(72, 1, 72));

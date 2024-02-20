@@ -8,6 +8,7 @@
     margin-top: 20px;
 }
 
+//aplicando flexible//
 .main-container{
     @extend .flexible;
 
@@ -26,6 +27,7 @@
    
 }
 
+//efecto//
 @keyframes efecto {
 
     0% {
@@ -44,7 +46,7 @@
     }
 }
 
-
+//card//
  .card{
     @extend .flexible;
     background-color: rgba(0, 139, 69, 0.993);
@@ -94,6 +96,7 @@
     }
  }
 
+ //footer del index//
 footer{
    .box{
     @extend .flexible;
@@ -153,55 +156,3 @@ footer{
     }
   }
 
-
-@media (min-width:768px)and (max-width:1023px){
-
-    .card{        
-       display: flex;
-
-       a{
-        margin: 0g;
-       }
-    }
-    .card-container{
-        flex-direction: column;
-        
-
-    }
-}
-
-@media (min-width:320px) and (max-width:767px){
-    .card{        
-        display: flex;
-        
-    a{
-        margin: 0;
-    }
-    
-     }
-     .card-container{
-         flex-direction: column;
- 
-     }
-
-    .box{
-      display: flex;
-      width: 80%;
-      justify-content: center;
-
-     .box-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-            text-align: center;
-        }
-
-        .footer-container{
-            width: 20%;
-        }
-        
-}
-}
-}
