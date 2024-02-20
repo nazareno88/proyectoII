@@ -56,11 +56,14 @@ nav .container-fluid .btn:hover {
   border-bottom: 2px solid black;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 766px) {
   .footer-container {
     display: flex;
-    flex-flow: row;
-    gap: 50px;
+    flex-direction: row;
+    gap: 40px;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
 .flexible, footer .box, .card, .main-container {
@@ -371,6 +374,12 @@ footer .footer {
   transition: 2s;
 }
 
+@media (min-width: 320px) and (max-width: 766px) {
+  .box-container p {
+    width: 50%;
+    font-size: 24px;
+  }
+}
 .accesorios-box {
   background-image: url(../assets/images/acces.jpg);
   background-position: center center;
