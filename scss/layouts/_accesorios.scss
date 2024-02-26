@@ -9,6 +9,7 @@
     h1{
         @include text (center,rgb(0, 0, 0),80px);
         padding: 60px 0;
+        font-family: $primarytext;
     }
     p{@include text (center,rgb(0, 0, 0),37px);
         padding: 50px 0;

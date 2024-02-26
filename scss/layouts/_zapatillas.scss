@@ -14,6 +14,7 @@
     h1{
         @include text(center, white,80px);
         padding-bottom: 40px;
+        font-family: $primarytext;
     }
     &,button{
         @include text(center,white,24px);
