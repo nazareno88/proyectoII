@@ -76,6 +76,7 @@ nav .container-fluid .btn:hover {
 }
 
 .main-container h1 {
+  font-family: merriweather;
   text-align: center;
   font-family: merriweather;
 }
@@ -323,6 +324,7 @@ footer .footer {
   text-align: center;
   color: white;
   font-size: 80px;
+  font-family: merriweather;
   padding-bottom: 40px;
   font-family: merriweather;
 }
@@ -391,6 +393,7 @@ footer .footer {
   text-align: center;
   color: rgb(0, 0, 0);
   font-size: 80px;
+  font-family: merriweather;
   padding: 60px 0;
   font-family: merriweather;
 }

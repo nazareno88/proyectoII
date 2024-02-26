@@ -14,7 +14,11 @@
     h1{
         @include text(center, white,80px);
         padding-bottom: 40px;
+<<<<<<< HEAD
         font-family: $primarytext;
+=======
+        font-family: $primaryText;
+>>>>>>> 5b41a0b (agregando vars)
     }
     &,button{
         @include text(center,white,24px);

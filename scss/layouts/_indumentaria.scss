@@ -13,6 +13,7 @@
 
     h1{
         @include text(center, white,80px);
+        font-family: $primaryText;
         padding-bottom: 40px;
         font-family: $primarytext;
     }
